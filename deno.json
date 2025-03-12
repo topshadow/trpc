@@ -1,0 +1,9 @@
+{
+  "name": "@24wings/trpc",
+  "exports":{
+    ".": "./mod.ts"
+  },
+  "imports": {
+    "hono": "jsr:@hono/hono"
+  }
+}
