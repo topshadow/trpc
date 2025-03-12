@@ -1,7 +1,7 @@
 import { Hono } from "hono";
-import z from "npm:zod@3.24.2";
+import z from "zod";
 
-import { zValidator } from "npm:@hono/zod-validator";
+import { zValidator, } from "hono/zod-validator";
 
 const app = new Hono<any>();
 const route = app.post(

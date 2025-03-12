@@ -1,12 +1,16 @@
 {
   "name": "@24wings/trpc",
   "version": "0.0.1",
+  "license": "MIT",
+
   "exports":{
     ".": "./mod.ts",
     "./server":"./server.ts",
     "./client":"./client.ts"
   },
   "imports": {
-    "hono": "jsr:@hono/hono"
+    "hono": "jsr:@hono/hono",
+    "zod":"npm:zod",
+    "hono/zod-validator":"npm:@hono/zod-validator"
   }
 }
